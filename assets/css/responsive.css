@@ -1,0 +1,969 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	.header-right-menu ul li a,
+	.header-menu ul li a {
+		padding: 5px
+	}
+	.site-logo {
+		margin-top: 13px
+	}
+	.banner-welcome form .video-banner-input {
+		width: 40%
+	}
+	.top-job-company-image h3,
+	.single-browse-company h3 {
+		font-size: 16px
+	}
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-right-menu {
+		display: none
+	}
+	.jobguru-responsive-menu {
+		display: block;
+		width: 50%;
+		z-index: 99999
+	}
+	.header-menu {
+		display: none
+	}
+	.site-logo {
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+	.slicknav_btn {
+		margin-top: 0
+	}
+	.forsticky.sticky {
+		position: absolute;
+		background: transparent
+	}
+	.banner-search h2 {
+		font-size: 40px
+	}
+	.single-candidate-widget-2 a.jobguru-btn-2 {
+		padding: 10px
+	}
+	.jobguru-inner-hire-area::after {
+		width: 55%
+	}
+	.jobguru-inner-hire-area::before {
+		width: 48%
+	}
+	.hire_circle {
+		left: 30%
+	}
+	.video-container h2 {
+		font-size: 35px
+	}
+	.how-works-box img {
+		display: none
+	}
+	.how-works-box {
+		width: auto;
+		height: auto;
+		padding: 60px 20px;
+		margin-top: 30px
+	}
+	.how-works-box.box-1::before,
+	.how-works-box.box-2::before,
+	.how-works-box.box-3::before {
+		display: none
+	}
+	.works-box-text p {
+		font-size: 18px
+	}
+	.how-works-area {
+		padding-bottom: 70px
+	}
+	.blog-image p {
+		padding: 35px 0
+	}
+	.single-footer-widget {
+		margin: 30px 0
+	}
+	.banner-welcome form {
+		width: 100%
+	}
+	.banner-welcome form .video-banner-input {
+		width: 36%
+	}
+	.sigle-top-job,
+	.single-browse-company,
+	.dashboard-right,
+	.single-about-box,
+	.blog-page-right {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.job-grid-sidebar,
+	.dashboard-left {
+		width: 75%;
+		margin: 0 auto
+	}
+	.price-standard .price-value::before {
+		top: -54px
+	}
+	.single-blog-page-item,
+	.pagination-box-row {
+		width: 75%;
+		margin: 0 auto 30px
+	}
+	.hire-box-2-btn a.jobguru-btn-2 {
+		text-align: center;
+		padding: 10px 15px
+	}
+	.hire-2-box h2 {
+		font-size: 24px
+	}
+	.page-header .slicknav_menu .slicknav_icon-bar {
+		background-color: #111
+	}
+	.available-count h4 {
+		text-align: center
+	}
+	.instagram>li {
+		width: 15%
+	}
+	.breadcromb-box h3 {
+		font-size: 35px
+	}
+	.single-input label span {
+		display: none
+	}
+	.single-candidate-action a.bookmarks,
+	.single-candidate-action a.candidate-contact {
+		padding: 10px
+	}
+	.nav-tabs .nav-item {
+		margin: 3px 0
+	}
+	.chat-board-right {
+		margin-top: 30px;
+		height: auto
+	}
+	.earnings-flex,
+	.balance-box-flex {
+		display: block
+	}
+	.single-earnings,
+	.single-balance-box {
+		margin: 10px 0
+	}
+	.change-pass form {
+		width: 100%
+	}
+	.job-grid-right {
+		margin-top: 30px
+	}
+	.search-category-box h3 {
+		font-size: 16px
+	}
+	.candidate-text-bottom {
+		display: block
+	}
+	.candidate-text-bottom {
+		text-align: left;
+	}
+	.candidate-text-box {
+		margin-bottom: 10px
+	}
+	.about-main-box {
+		width: 70%
+	}
+	.login-box {
+		width: 65%
+	}
+	.footer-top::after {
+		width: 100%
+	}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+	.header-right-menu {
+		display: none
+	}
+	.jobguru-responsive-menu {
+		display: block
+	}
+	.header-menu {
+		display: none
+	}
+	.site-logo {
+		width: 60%
+	}
+	.banner-search h2 {
+		display: none
+	}
+	.banner-search h4 {
+		display: none
+	}
+	.banner-form-box {
+		background: transparent;
+		display: block
+	}
+	.banner-form-input {
+		display: block;
+		border-radius: 5px;
+		padding: 5px;
+		background: #fff none repeat scroll 0 0;
+		margin-top: 8px
+	}
+	.banner-form-input input {
+		padding: 3px 5px
+	}
+	.mob-hide {
+		display: none
+	}
+	.banner-form-input:last-child {
+		display: block;
+		margin-top: 8px;
+		background: #25ad60 none repeat scroll 0 0
+	}
+	.banner-form-input button {
+		position: relative
+	}
+	.banner-form-input button:hover {
+		background: #25ad60 none repeat scroll 0 0
+	}
+	.banner-form-input .select2 {
+		padding: 0
+	}
+	.select2-container--default .select2-selection--single .select2-selection__arrow {
+		top: 8px
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.jobguru-categories-area .row .col-lg-3 {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.jobguru-inner-hire-area::after,
+	.hire_circle {
+		display: none
+	}
+	.jobguru-inner-hire-area::before,
+	.inner-hire-left {
+		width: 100%
+	}
+	.inner-hire-left h3 {
+		font-size: 32px
+	}
+	.job-tab .job-tab-switch {
+		border: 0px solid #ddd;
+		padding: 0
+	}
+	.job-tab-switch li {
+		margin-top: 10px
+	}
+	.top-company-list {
+		display: block;
+		text-align: center
+	}
+	.top-company-list .company-list-logo {
+		margin: 0 auto 15px !important;
+		max-width: 110px !important;
+	}
+	.top-company-list .company-list-details>h3 {
+		line-height: 30px
+	}
+	.company-list-details p {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px
+	}
+	.rating-company {
+		width: 25%;
+		margin: 0 auto 10px !important;
+		padding: 5px;
+		text-align: center
+	}
+	.video-container h2 {
+		font-size: 26px;
+		line-height: 40px
+	}
+	.how-works-box img {
+		display: none
+	}
+	.how-works-box {
+		border-radius: 5px;
+		margin: 30px auto 0
+	}
+	.how-works-area {
+		padding-bottom: 70px
+	}
+	.blog-image p {
+		font-size: 15px;
+		line-height: 22px
+	}
+	.single-footer-widget {
+		margin: 30px 0
+	}
+	.banner-welcome h4 {
+		font-size: 22px;
+		line-height: 40px
+	}
+	.banner-welcome h4 span {
+		font-size: 35px
+	}
+	.banner-welcome {
+		text-align: center
+	}
+	.banner-welcome form {
+		width: 70%;
+		margin: 30px auto 0
+	}
+	.banner-welcome form .video-banner-input:last-child {
+		float: none;
+		text-align: center
+	}
+	.banner-welcome form .video-banner-input {
+		width: 100%;
+		float: none;
+		margin-top: 10px
+	}
+	.banner-welcome form .video-banner-input input {
+		padding: 0
+	}
+	.top-search-cat {
+		display: none
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.no-pad-left {
+		padding-left: 15px
+	}
+	.no-pad-all {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.single-pricing {
+		margin-top: 30px
+	}
+	.single-pricing.price-standard {
+		transform: scale(1)
+	}
+	.jobguru-pricing-area.section_70 {
+		padding-bottom: 70px
+	}
+	.hire-2-box {
+		text-align: center
+	}
+	.hire-2-box h2 {
+		font-size: 26px;
+		line-height: 40px
+	}
+	.hire-box-2-btn {
+		text-align: center;
+		margin-top: 20px
+	}
+	.breadcromb-top {
+		padding: 50px 0
+	}
+	.breadcromb-box h3 {
+		font-size: 30px;
+		line-height: normal
+	}
+	.browse-job-head-option,
+	.job-browse-search {
+		display: block
+	}
+	.job-browse-action {
+		display: block;
+		margin-left: 0;
+		margin-top: 10px
+	}
+	.job-browse-action .dropdown button {
+		margin-left: 0;
+		width: 100%;
+		margin-top: 10px
+	}
+	label.styled {
+		text-align: left
+	}
+	.job-browse-action .dropdown-menu {
+		min-width: 100%
+	}
+	.job-browse-action .dropdown-toggle:after {
+		top: 30px
+	}
+	.search-category-box {
+		width: 100%;
+		float: none
+	}
+	.nav-tabs .nav-item {
+		margin: 3px 0
+	}
+	.single-candidate-action {
+		text-align: center;
+		margin: 30px 0 0;
+	}
+	.single-candidate-bottom-right {
+		margin-top: 30px
+	}
+	.progressbar-example {
+		width: 100%
+	}
+	.single-candidate-widget-2 ul li {
+		display: block
+	}
+	.single-candidate-widget-2>ul.candidate-social>li {
+		display: inline-block
+	}
+	.submit-resume-box {
+		width: 100%
+	}
+	.feild-flex-2 {
+		display: block
+	}
+	.single-resume-feild.feild-flex-2 .single-input:last-child {
+		margin-left: 0
+	}
+	.single-resume-feild.feild-flex-2 .single-input:first-child {
+		margin-right: 0
+	}
+	.dashboard-right,
+	.chat-board-right {
+		margin-top: 30px
+	}
+	.chat-content {
+		width: calc(70%)
+	}
+	.chat-board-right {
+		height: 80%
+	}
+	.earnings-flex,
+	.balance-box-flex {
+		display: block
+	}
+	.single-earnings,
+	.single-balance-box {
+		margin-right: 0;
+		margin-top: 30px
+	}
+	.change-pass form {
+		width: 100%
+	}
+	.job-grid-right {
+		margin-top: 30px
+	}
+	.main-comment {
+		padding: 30px 0px 10px 0px
+	}
+	.candidate-image {
+		position: relative;
+		top: 0
+	}
+	.candidate-text-bottom {
+		display: block
+	}
+	.candidate-text-box {
+		margin-bottom: 20px
+	}
+	.candidate-text-inner ul {
+		display: inline-block
+	}
+	.about-main-box {
+		width: 100%
+	}
+	.blog-title>h3 {
+		font-size: 20px
+	}
+	.blog-page-right {
+		margin-top: 30px
+	}
+	.leave-comment input[type="text"],
+	.leave-comment input[type="email"] {
+		width: 100%;
+		margin-right: 0
+	}
+	.leave-comment textarea {
+		width: 100%;
+		margin-right: 0
+	}
+	.login-box {
+		width: 100%
+	}
+	.contact-right {
+		margin-top: 30px
+	}
+	.top-job-company-desc ul li span i {
+		display: none
+	}
+	.single-candidate-box {
+		display: block
+	}
+	.single-candidate-img {
+		margin-bottom: 20px
+	}
+	.single-candidate-action a.candidate-contact {
+		margin-left: 0;
+		margin-top: 10px
+	}
+	.resume-box h3 {
+		font-size: 20px
+	}
+	.message-text-area button {
+		right: 15px
+	}
+	.single-balance-box h2 {
+		font-size: 22px
+	}
+	.single-balance-box h3 span {
+		display: block;
+		float: none;
+		margin-top: 10px
+	}
+	.blog-social-follow a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 5px
+	}
+	.blog-content blockquote .quote-inner {
+		padding-left: 20px
+	}
+	.single-work-history.reply-commnt {
+		padding-left: 0
+	}
+	.remember-row {
+		display: block;
+		text-align: center
+	}
+	.page-header .slicknav_menu .slicknav_icon-bar {
+		background-color: #111
+	}
+	.remember {
+		display: block;
+		float: none
+	}
+	.lost-pass a {
+		float: none
+	}
+	.footer-top::after {
+		width: 100%
+	}
+	.forsticky.sticky {
+		/* position: absolute; */
+		/* background: transparent; */
+	}
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-right-menu {
+		display: none
+	}
+	.jobguru-responsive-menu {
+		display: block
+	}
+	.header-menu {
+		display: none
+	}
+	.site-logo {
+		width: 60%
+	}
+	.banner-search h2 {
+		display: none
+	}
+	.banner-search h4 {
+		display: none
+	}
+	.banner-form-box {
+		background: transparent;
+		display: block
+	}
+	.banner-form-input {
+		display: block;
+		border-radius: 5px;
+		padding: 5px;
+		background: #fff none repeat scroll 0 0;
+		margin-top: 8px
+	}
+	.banner-form-input input {
+		padding: 3px 5px
+	}
+	.banner-form-input:last-child {
+		display: block;
+		margin-top: 8px;
+		background: #25ad60 none repeat scroll 0 0
+	}
+	.banner-form-input button {
+		position: relative
+	}
+	.banner-form-input button:hover {
+		background: #25ad60 none repeat scroll 0 0
+	}
+	.banner-form-input .select2 {
+		padding: 0
+	}
+	.select2-container--default .select2-selection--single .select2-selection__arrow {
+		top: 8px
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.jobguru-categories-area .row .col-lg-3 {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.jobguru-inner-hire-area::after,
+	.hire_circle {
+		display: none
+	}
+	.jobguru-inner-hire-area::before,
+	.inner-hire-left {
+		width: 100%
+	}
+	.inner-hire-left h3 {
+		font-size: 32px
+	}
+	.job-tab .job-tab-switch {
+		border: 0px solid #ddd;
+		padding: 0
+	}
+	.job-tab-switch li {
+		margin-top: 10px
+	}
+	.top-company-list {
+		display: block;
+		text-align: center
+	}
+	.top-company-list .company-list-logo {
+		margin: 0 auto 15px !important;
+		max-width: 110px !important;
+	}
+	.top-company-list .company-list-details>h3 {
+		line-height: 30px
+	}
+	.company-list-details p {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px
+	}
+	.category-holder-text h3 {
+		font-size: 14px
+	}
+	.single-category-holder {
+		margin-top: 30px
+	}
+	.how-works-box {
+		width: 100%;
+	}
+	.how-works-box.box-1::before,
+	.how-works-box.box-2::before,
+	.how-works-box.box-3::before {
+		display: none
+	}
+	.rating-company {
+		width: 25%;
+		margin: 0 auto 10px !important;
+		padding: 5px;
+		text-align: center
+	}
+	.video-container h2 {
+		font-size: 26px;
+		line-height: 40px
+	}
+	.how-works-box img {
+		display: none
+	}
+	.how-works-box {
+		border-radius: 5px;
+		margin: 30px auto 0
+	}
+	.how-works-area {
+		padding-bottom: 70px
+	}
+	.blog-image p {
+		font-size: 17px;
+		line-height: 23px;
+		padding: 22px 0
+	}
+	.single-footer-widget {
+		margin: 30px 0
+	}
+	.banner-welcome h4 {
+		font-size: 22px;
+		line-height: 40px
+	}
+	.banner-welcome h4 span {
+		font-size: 35px
+	}
+	.banner-welcome {
+		text-align: center
+	}
+	.banner-welcome form {
+		width: 70%;
+		margin: 20px auto 0
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #fff
+	}
+	.banner-welcome form .video-banner-input:last-child {
+		float: none;
+		text-align: center
+	}
+	.banner-welcome form .video-banner-input {
+		width: 100%;
+		float: none;
+		margin-top: 10px
+	}
+	.banner-welcome form .video-banner-input input {
+		padding: 0
+	}
+	.top-search-cat {
+		display: none
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.no-pad-left {
+		padding-left: 15px
+	}
+	.no-pad-all {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.single-pricing {
+		margin-top: 30px
+	}
+	.single-pricing.price-standard {
+		transform: scale(1)
+	}
+	.jobguru-pricing-area.section_70 {
+		padding-bottom: 70px
+	}
+	.hire-2-box {
+		text-align: center
+	}
+	.hire-2-box h2 {
+		font-size: 26px;
+		line-height: 40px
+	}
+	.hire-box-2-btn {
+		text-align: center;
+		margin-top: 20px
+	}
+	.breadcromb-top {
+		padding: 50px 0
+	}
+	.breadcromb-box h3 {
+		font-size: 30px;
+		line-height: normal
+	}
+	.browse-job-head-option,
+	.job-browse-search {
+		display: block
+	}
+	.job-browse-action {
+		display: block;
+		margin-left: 0;
+		margin-top: 10px
+	}
+	.job-browse-action .dropdown button {
+		margin-left: 0;
+		width: 100%;
+		margin-top: 10px
+	}
+	label.styled {
+		text-align: left
+	}
+	.job-browse-action .dropdown-menu {
+		min-width: 100%
+	}
+	.job-browse-action .dropdown-toggle:after {
+		top: 30px
+	}
+	.search-category-box {
+		width: 100%;
+		float: none
+	}
+	.nav-tabs .nav-item {
+		margin: 3px 0
+	}
+	.single-candidate-action {
+		text-align: center;
+		margin: 30px 0 0;
+	}
+	.single-candidate-bottom-right {
+		margin-top: 30px
+	}
+	.progressbar-example {
+		width: 100%
+	}
+	.single-candidate-widget-2 ul li {
+		display: block
+	}
+	.single-candidate-widget-2>ul.candidate-social>li {
+		display: inline-block
+	}
+	.submit-resume-box {
+		width: 100%
+	}
+	.feild-flex-2 {
+		display: block
+	}
+	.single-resume-feild.feild-flex-2 .single-input:last-child {
+		margin-left: 0
+	}
+	.single-resume-feild.feild-flex-2 .single-input:first-child {
+		margin-right: 0
+	}
+	.dashboard-right,
+	.chat-board-right {
+		margin-top: 30px
+	}
+	.chat-content {
+		width: calc(70%)
+	}
+	.chat-board-right {
+		height: 80%
+	}
+	.earnings-flex,
+	.balance-box-flex {
+		display: block
+	}
+	.single-earnings,
+	.single-balance-box {
+		margin-right: 0;
+		margin-top: 30px
+	}
+	.change-pass form {
+		width: 100%
+	}
+	.job-grid-right {
+		margin-top: 30px
+	}
+	.main-comment {
+		padding: 30px 0px 10px 0px
+	}
+	.candidate-image {
+		position: relative;
+		top: 0
+	}
+	.candidate-text-bottom {
+		display: block
+	}
+	.candidate-text-box {
+		margin-bottom: 20px
+	}
+	.candidate-text-inner ul {
+		display: inline-block
+	}
+	.about-main-box {
+		width: 100%
+	}
+	.blog-title>h3 {
+		font-size: 20px
+	}
+	.blog-page-right {
+		margin-top: 30px
+	}
+	.leave-comment input[type="text"],
+	.leave-comment input[type="email"] {
+		width: 100%;
+		margin-right: 0
+	}
+	.leave-comment textarea {
+		width: 100%;
+		margin-right: 0
+	}
+	.login-box {
+		width: 100%
+	}
+	.contact-right {
+		margin-top: 30px
+	}
+	.top-job-company-desc ul li span i {
+		display: none
+	}
+	.single-candidate-box {
+		display: block
+	}
+	.single-candidate-img {
+		margin-bottom: 20px
+	}
+	.single-candidate-action a.candidate-contact {
+		margin-left: 0;
+		margin-top: 10px
+	}
+	.resume-box h3 {
+		font-size: 20px
+	}
+	.message-text-area button {
+		right: 15px
+	}
+	.single-balance-box h2 {
+		font-size: 22px
+	}
+	.single-balance-box h3 span {
+		display: block;
+		float: none;
+		margin-top: 10px
+	}
+	.blog-social-follow a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 5px
+	}
+	.blog-content blockquote .quote-inner {
+		padding-left: 20px
+	}
+	.single-work-history.reply-commnt {
+		padding-left: 50px
+	}
+	.remember-row {
+		display: block;
+		text-align: center
+	}
+	.remember {
+		display: block;
+		float: none
+	}
+	.lost-pass a {
+		float: none
+	}
+	.footer-top::after {
+		width: 100%
+	}
+	.slicknav_btn {
+		margin-top: 0
+	}
+	.forsticky.sticky {
+		position: absolute;
+		background: transparent
+	}
+	.instagram>li {
+		width: 15%
+	}
+	.page-header .slicknav_menu .slicknav_icon-bar {
+		background-color: #111
+	}
+	.banner-welcome h4 {
+		display: none
+	}
+}
+
